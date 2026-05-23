@@ -52,9 +52,11 @@ When you click Cancel, the progress bar timer may continue animating for a few s
 Before installing, you will need:
 
 - **Windows 10 or 11** (64-bit)
-- **Python 3.12 or 3.13** from [python.org](https://www.python.org/downloads/)
+- **Python 3.12 or 3.13** — download the Windows installer (64-bit) from the official releases page:
+  - [Python 3.13](https://www.python.org/downloads/release/python-3130/)
+  - [Python 3.12](https://www.python.org/downloads/release/python-3120/)
   - During installation tick **"Add Python to PATH"**
-  - Do **not** use the Microsoft Store version of Python
+  - Do **not** use the Microsoft Store version of Python or the install manager from Python at this time.
 
 Everything else (Git, FFmpeg, MKVToolNix, Bento4, and all Python packages) is downloaded and installed automatically by the launcher.
 
