@@ -4,13 +4,13 @@
 ; Build steps:
 ;   1. Run: pyinstaller twinvine_launcher.spec
 ;   2. Open this .iss file in Inno Setup and click Compile
-;   Output: installer_output\TwinVineLauncher-Setup-1.0.0-BETA.exe
+;   Output: installer_output\TwinVine Launcher-Setup-1.0.0-Beta.exe
 
 #define MyAppName "TwinVine Launcher"
-#define MyAppVersion "1.0.0 BETA"
+#define MyAppVersion "1.0.0 Beta"
 #define MyAppVersionFile "1.0.0"
-#define MyAppPublisher "vinefeeder"
-#define MyAppURL "https://github.com/vinefeeder/TwinVine"
+#define MyAppPublisher "Lseauk"
+#define MyAppURL "https://github.com/Lseauk/TwinVine-Launcher"
 #define MyAppExeName "TwinVineLauncher.exe"
 #define MyAppDescription "Windows GUI launcher for TwinVine (VineFeeder + Envied)"
 
@@ -31,7 +31,7 @@ PrivilegesRequired=lowest
 
 ; Output
 OutputDir=installer_output
-OutputBaseFilename=TwinVineLauncher-Setup-1.0.0-BETA
+OutputBaseFilename=TwinVine Launcher-Setup-1.0.0-Beta
 Compression=lzma2/ultra64
 SolidCompression=yes
 WizardStyle=modern
