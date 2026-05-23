@@ -47,11 +47,11 @@ Everything else (Git, FFmpeg, MKVToolNix, Bento4, and all Python packages) is do
 
 ## Installation
 
-### Option A — Installer (recommended)
+### Option 1 — Installer
 
 Download `TwinVineLauncher-Setup-1.0.0-BETA.exe` from the [Releases](https://github.com/Lseauk/TwinVine-Launcher/releases) page and run it. The installer will set up the launcher in your Downloads folder and add a Start Menu entry.
 
-### Option B — Zip
+### Option 2 — Zip
 
 Download and unzip `twinvine-launcher.zip`, then double-click `TwinVine Launcher.bat` to launch.
 
