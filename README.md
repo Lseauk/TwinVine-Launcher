@@ -145,7 +145,7 @@ ALL4 · BBC iPlayer · ITVX · MY5 · PLEX · RTE · STV · TPTV · TVNZ · U
 
 ## Building from Source
 
-See [TwinVine Launcher — Setup & Installation.md](TwinVine Launcher %E2%80%94 Setup %26 Installation.md) for instructions on building the installer exe from source.
+See [TwinVine Launcher — Setup & Installation.md](https://github.com/Lseauk/TwinVine-Launcher/blob/main/TwinVine%20Launcher%20%E2%80%94%20Setup%20%26%20Installation.md) for instructions on building the installer exe from source.
 
 ---
 
