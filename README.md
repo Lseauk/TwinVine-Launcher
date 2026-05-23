@@ -6,7 +6,7 @@
 
 **A Windows GUI for TwinVine (VineFeeder + Envied)**
 
-![Windows](https://img.shields.io/badge/Platform-Windows 10%2F11-blue?style=flat-square)
+![Windows](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue?style=flat-square)
 ![Version](https://img.shields.io/badge/Version-1.0.0%20BETA-green?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.12%2F3.13-blue?style=flat-square)
 
