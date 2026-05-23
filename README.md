@@ -7,7 +7,7 @@
 **A Windows GUI for TwinVine (VineFeeder + Envied)**
 
 ![Windows](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue?style=flat-square)
-![Version](https://img.shields.io/badge/Version-1.0.0%20BETA-green?style=flat-square)
+![Version](https://img.shields.io/badge/Version-1.0.0%20Beta-green?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.12%2F3.13-blue?style=flat-square)
 
 </div>
@@ -32,6 +32,21 @@ TwinVine Launcher handles everything automatically: installing all required tool
 
 ---
 
+## Known Issues & Quirks
+
+This is a Beta release. The following known issues exist — contributions and bug reports are welcome.
+
+**1. HDR/HLG not always falling back to 1080p**
+Occasionally the app does not automatically switch down to 1080p when no HDR or HLG stream is available. This has been seen with some BBC content (e.g. the show Kin). If you encounter a "Selection unavailable in UHD" error, restart the app, untick the **HLG** checkbox on the Home page, and try again. This appears to be service-specific and your experience may vary.
+
+**2. No real-time animation in the download panel**
+The underlying TwinVine tools buffer all output until a download is complete, which means the download log only appears once the file has finished. A progress bar has been added to give visual feedback during the wait — this is expected behaviour, not a crash.
+
+**3. Progress bar continues briefly after cancelling a download**
+When you click Cancel, the progress bar timer may continue animating for a few seconds before stopping. The download itself is cancelled immediately — the brief continuation of the bar is just the timer thread winding down and can be safely ignored.
+
+---
+
 ## Pre-requirements
 
 Before installing, you will need:
@@ -47,11 +62,11 @@ Everything else (Git, FFmpeg, MKVToolNix, Bento4, and all Python packages) is do
 
 ## Installation
 
-### Option 1 — Installer
+### Option A — Installer
 
-Download `TwinVineLauncher-Setup-1.0.0-BETA.exe` from the [Releases](https://github.com/Lseauk/TwinVine-Launcher/releases) page and run it. The installer will set up the launcher in your Downloads folder and add a Start Menu entry.
+Download `TwinVineLauncher-Setup-1.0.0-Beta.exe` from the [Releases](https://github.com/Lseauk/TwinVine-Launcher/releases) page and run it. The installer will set up the launcher in your Downloads folder and add a Start Menu entry.
 
-### Option 2 — Zip
+### Option B — Zip
 
 Download and unzip `twinvine-launcher.zip`, then double-click `TwinVine Launcher.bat` to launch.
 
@@ -146,6 +161,18 @@ ALL4 · BBC iPlayer · ITVX · MY5 · PLEX · RTE · STV · TPTV · TVNZ · U
 ## Building from Source
 
 See [TwinVine Launcher — Setup & Installation.md](https://github.com/Lseauk/TwinVine-Launcher/blob/main/TwinVine%20Launcher%20%E2%80%94%20Setup%20%26%20Installation.md) for instructions on building the installer exe from source.
+
+---
+
+## Contributing & Feedback
+
+TwinVine Launcher is in Beta and has so far only been tested by a small number of users. If you find a bug, have a suggestion, or want to contribute, please:
+
+- **Open an issue** on the [GitHub Issues](https://github.com/Lseauk/TwinVine-Launcher/issues) page — bug reports, feature requests, and general feedback are all welcome
+- **Submit a pull request** if you have a fix or improvement you'd like to contribute
+- **Test on different services** — not all supported services have been fully tested, so reports on what works and what doesn't are particularly helpful
+
+As this is a Beta release, there will likely be rough edges. Your feedback helps make it better for everyone.
 
 ---
 
