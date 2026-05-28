@@ -24,7 +24,7 @@ TwinVine combines VineFeeder (a service scraper and download manager) with Envie
 
 ## Why This Project Exists
 
-TwinVine is a powerful tool but requires comfort with the command line to set up and use. I wanted to make it a little easier for me to install and use — no terminal, no technical knowledge, just a clean window where you click a service, pick your episodes, and download. (28/052026) I should add that currently this current version is not really geared towards running complex download commands and more for quick higest avalible quality downloads, should you wish to run more complex downloads I would use vinefeeder by A_n_g_e_l_a instead.
+TwinVine is a powerful tool but requires comfort with the command line to set up and use. I wanted to make it a little easier for me to install and use — no terminal, no technical knowledge, just a clean window where you click a service, pick your episodes, and download. (28/052026) I should add that currently this current version is not really geared towards running complex download commands and more for quick higest avalible quality downloads, should you wish to run more complex downloads I would use TwinVine by A_n_g_e_l_a instead.
 
 TwinVine Launcher handles everything automatically: installing all required tools, setting up the Python environment, and providing a straightforward GUI that wraps the entire TwinVine workflow.
 
