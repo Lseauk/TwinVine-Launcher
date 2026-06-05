@@ -42,7 +42,7 @@ Open a terminal in the `twinvine-launcher` folder and run:
 
 ### Step 2 — Build the exe with PyInstaller
 
-Still in the `twinvine-launcher` folder, run:
+Still in the `twinvine-launcher` folder, run, remember to change `YourName` with your Windows username:
 
 ```powershell
 & "C:\Users\YourName\Downloads\twinvine-launcher\TwinVine\.venv\Scripts\python.exe" -m PyInstaller twinvine_launcher.spec
