@@ -3941,7 +3941,7 @@ ALL4, BBC iPlayer, ITVX, MY5, PLEX, RTE, STV, TPTV, TVNZ(Untested by me), U
         tv_btn.setStyleSheet(
             f"background:{C['green']};color:{C['bg']};padding:8px 20px;"
             f"border-radius:4px;font-weight:bold;border:none;")
-        tv_btn.clicked.connect(lambda: webbrowser.open(GITHUB_URL))
+        tv_btn.clicked.connect(lambda: webbrowser.open("https://github.com/vinefeeder/TwinVine"))
         tv_btn.setFixedWidth(200)
         layout.addWidget(tv_btn)
 
