@@ -92,7 +92,7 @@ except ImportError:
 
 APP_NAME        = "TwinVine Launcher"
 APP_VERSION     = "1.0.0 BETA"
-GITHUB_REPO     = "vinefeeder/TwinVine"
+GITHUB_REPO     = "Lseauk/TwinVine-Launcher-Core"
 GITHUB_API      = f"https://api.github.com/repos/{GITHUB_REPO}/commits/main"
 GITHUB_URL      = f"https://github.com/{GITHUB_REPO}"
 CLONE_URL       = f"https://github.com/{GITHUB_REPO}.git"
@@ -3230,6 +3230,7 @@ class TwinVineLauncher(QMainWindow):
         btn_row.addWidget(self._install_btn)
         self._update_btn = QPushButton("🔄  Check for Updates")
         self._update_btn.clicked.connect(self._check_updates)
+        self._update_btn.setVisible(self._is_installed())
         btn_row.addWidget(self._update_btn)
         btn_row.addStretch()
         layout.addLayout(btn_row)
@@ -3397,6 +3398,7 @@ class TwinVineLauncher(QMainWindow):
             })
             save_config(self.cfg)
             self._refresh_status()
+            self._update_btn.setVisible(True)
 
             # Load VineFeeder directly — no relaunch needed.
             # The sys.path eviction in bootstrap_vinefeeder handles version
@@ -3941,7 +3943,7 @@ ALL4, BBC iPlayer, ITVX, MY5, PLEX, RTE, STV, TPTV, TVNZ(Untested by me), U
         tv_btn.setStyleSheet(
             f"background:{C['green']};color:{C['bg']};padding:8px 20px;"
             f"border-radius:4px;font-weight:bold;border:none;")
-        tv_btn.clicked.connect(lambda: webbrowser.open(GITHUB_URL))
+        tv_btn.clicked.connect(lambda: webbrowser.open("https://github.com/vinefeeder/TwinVine"))
         tv_btn.setFixedWidth(200)
         layout.addWidget(tv_btn)
 
