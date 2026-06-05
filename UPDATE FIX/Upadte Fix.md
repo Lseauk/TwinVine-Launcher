@@ -21,9 +21,10 @@ This should be quick, as it will check what tools are already installed
 
 The app should then be working again. ✅
 
+I've updated the original release, so this bug should no longer be an issue on a fresh install.
+
 🗺️ What's Next
 
-The original release will be updated shortly
 A new release is coming soon with a few added features
 
 
