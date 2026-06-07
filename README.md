@@ -144,7 +144,7 @@ Toggle **Batch Mode** on to queue episodes from multiple shows before downloadin
 ![Help](https://github.com/Lseauk/TwinVine-Launcher/blob/main/images/Help.png?raw=true)
 
 ### About
-![About](https://github.com/Lseauk/TwinVine-Launcher/blob/main/images/About%20Page.png?raw=true)
+![About](https://github.com/Lseauk/TwinVine-Launcher/blob/main/images/About.png?raw=true)
 
 ---
 
