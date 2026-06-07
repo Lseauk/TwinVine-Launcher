@@ -24,20 +24,22 @@ TwinVine combines VineFeeder (a service scraper and download manager) with Envie
 
 ## Why This Project Exists
 
-TwinVine is a powerful tool but requires comfort with the command line to set up and use. I wanted to make it a little easier for me to install and use — no terminal, no technical knowledge, just a clean window where you click a service, pick your episodes, and download. (28/052026) I should add that currently this current version is not really geared towards running complex download commands and more for quick higest avalible quality downloads, should you wish to run more complex downloads I would use TwinVine by A_n_g_e_l_a instead.
+TwinVine is a powerful tool but requires comfort with the command line to set up and use. I wanted to make it a little easier for me to install and use — no terminal, no technical knowledge, just a clean window where you click a service, pick your episodes, and download.
 
 TwinVine Launcher handles everything automatically: installing all required tools, setting up the Python environment, and providing a straightforward GUI that wraps the entire TwinVine workflow.
 
 > **⚠ Windows Only** — TwinVine Launcher is a Windows 10/11 application only.
 
+**This is not a replacement for the original project**
+- For more complex downloads and use of other services I would strongly recommend the original developers project above, this project is more geared toward the 10 main services.
 ---
 
 ## Known Issues & Quirks
 
-This is a Beta release. The following known issues exist — contributions and bug reports are welcome.
+This release. The following known issues exist — contributions and bug reports are welcome.
 
 **1. HDR/HLG not always falling back to 1080p**
-Occasionally the app does not automatically switch down to 1080p when no HDR or HLG stream is available. This has been seen with some BBC content (e.g. the show Kin). If you encounter a "Selection unavailable in UHD" error, restart the app, untick the **HLG** checkbox on the Home page, and try again. This appears to be service-specific and your experience may vary.
+Occasionally the app does not automatically switch down to 1080p when no HDR or HLG stream is available. This has been seen with some BBC content (e.g. the show Kin). If you encounter a "Selection unavailable in UHD" error, untick the **HLG** checkbox on the Home page, and try again. This appears to be service-specific and your experience may vary.
 
 **2. No real-time animation in the download panel**
 The underlying TwinVine tools buffer all output until a download is complete, which means the download log only appears once the file has finished. A progress bar has been added to give visual feedback during the wait — this is expected behaviour, not a crash.
@@ -52,14 +54,17 @@ When you click Cancel, the progress bar timer may continue animating for a few s
 Before installing, you will need:
 
 - **Windows 10 or 11** (64-bit)
-- **Python 3.12 or 3.13** — download the Windows installer (64-bit) from the official releases page:
+- **Python 3.12 or 3.13 or 3.14** — download the Windows installer (64-bit) from the official releases page:
+  - [Python 3.14](https://www.python.org/downloads/release/python-3145/)
   - [Python 3.13](https://www.python.org/downloads/release/python-3130/)
   - [Python 3.12](https://www.python.org/downloads/release/python-3120/)
+  
   - During installation tick **"Add Python to PATH"**
   - Do **not** use the Microsoft Store version of Python or the install manager from Python at this time.
 
 Everything else (Git, FFmpeg, MKVToolNix, Bento4, and all Python packages) is downloaded and installed automatically by the launcher.
 
+- **Services Credentials** - Some services like All4 require login details, username/password before they will download, please see the help page for more details after install.
 ---
 
 ## Installation
@@ -92,6 +97,8 @@ Either way, once results appear:
 4. Tick the episodes you want and click Confirm
 5. The download begins automatically — progress is shown in the panel below
 
+## Please check the help page of the app for more details on downloading 
+
 ### Batch Mode
 
 Toggle **Batch Mode** on to queue episodes from multiple shows before downloading them all at once. The sidebar shows how many episodes are queued. Click **Run Batch** when ready.
@@ -123,6 +130,13 @@ Toggle **Batch Mode** on to queue episodes from multiple shows before downloadin
 
 ### Episode Selection
 ![Episode Selection](https://github.com/Lseauk/TwinVine-Launcher/blob/main/images/07%20-%20Episode%20Selection.png?raw=true)
+
+### Quality selection, Subtitles, Slow mode
+![Quality Selection](https://github.com/Lseauk/TwinVine-Launcher/blob/main/images/Quality.png?raw=true)
+
+### Track Selection for URL Downloads
+![Fetch Tracks 01](https://github.com/Lseauk/TwinVine-Launcher/blob/main/images/Fetch%20Tracks%2001.png?raw=true)
+![Fetch Tracks 02](https://github.com/Lseauk/TwinVine-Launcher/blob/main/images/Fetch%20Tracks%2002.png?raw=true)
 
 ### Download in Progress
 ![Download Panel](https://github.com/Lseauk/TwinVine-Launcher/blob/main/images/08%20-%20Download%20Panel.png?raw=true)
