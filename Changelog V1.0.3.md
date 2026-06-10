@@ -2,7 +2,7 @@
 
 ## Bug Fixes
 
-## Update Error Fixed
+### Update Error Fixed
 This version will fix the update error issue, to update any previous version download and copy the new twinvine_launcher.py file in to your launcher folder and replace the older version.
 If you're using a pre-built exe file run from the batch file and rebuild the exe file.
 
