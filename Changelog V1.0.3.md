@@ -2,6 +2,10 @@
 
 ## Bug Fixes
 
+## Update Error Fixed
+This version will fix the update error issue, to update any previous version download and copy the new twinvine_launcher.py file in to your launcher folder and replace the older version.
+If you're using a pre-built exe file run from the batch file and rebuild the exe file.
+
 ### Episode Label — SS1 Display Error
 Episodes were occasionally showing a double `S` prefix (e.g. `SS1 · Episode 1`) instead of the correct `S1 · Episode 1`. 
 
@@ -17,7 +21,6 @@ Adjusting spacing between the service buttons area and the selection results pan
 
 ### Merging Phase & Multiplexing Banner Messaging
 Added a Merging video & Multiplexing status timer banners, to give a better feedback on what is happening when downloading. 
-
 
 ---
 
