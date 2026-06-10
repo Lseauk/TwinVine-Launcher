@@ -41,11 +41,8 @@ This release. The following known issues exist — contributions and bug reports
 **1. HDR/HLG not always falling back to 1080p**
 Occasionally the app does not automatically switch down to 1080p when no HDR or HLG stream is available. This has been seen with some BBC content (e.g. the show Kin). If you encounter a "Selection unavailable in UHD" error, untick the **HLG** checkbox on the Home page, and try again. This appears to be service-specific and your experience may vary.
 
-**2. No real-time animation in the download panel**
-The underlying TwinVine tools buffer all output until a download is complete, which means the download log only appears once the file has finished. A progress bar has been added to give visual feedback during the wait — this is expected behaviour, not a crash.
-
-**3. Progress bar continues briefly after cancelling a download**
-When you click Cancel, the progress bar timer may continue animating for a few seconds before stopping. The download itself is cancelled immediately — the brief continuation of the bar is just the timer thread winding down and can be safely ignored.
+**2. Real-time animation in the download panel**
+This has been improved see Changelog v1.0.3
 
 ---
 
