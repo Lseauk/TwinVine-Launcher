@@ -38,11 +38,10 @@ TwinVine Launcher handles everything automatically: installing all required tool
 
 This release. The following known issues exist — contributions and bug reports are welcome.
 
-**1. HDR/HLG not always falling back to 1080p**
-Occasionally the app does not automatically switch down to 1080p when no HDR or HLG stream is available. This has been seen with some BBC content (e.g. the show Kin). If you encounter a "Selection unavailable in UHD" error, untick the **HLG** checkbox on the Home page, and try again. This appears to be service-specific and your experience may vary.
-
-**2. Real-time animation in the download panel**
+**1. Real-time animation in the download panel**
 This has been improved see Changelog v1.0.3
+
+Please check the **Changelog** folder or release page for bug fixes and additions to the app.
 
 ---
 
@@ -173,13 +172,13 @@ See [TwinVine Launcher — Setup & Installation.md](https://github.com/Lseauk/Tw
 
 ## Contributing & Feedback
 
-TwinVine Launcher is in Beta and has so far only been tested by a small number of users. If you find a bug, have a suggestion, or want to contribute, please:
+TwinVine Launcher has so far only been tested by a small number of users. If you find a bug, have a suggestion, or want to contribute, please:
 
 - **Open an issue** on the [GitHub Issues](https://github.com/Lseauk/TwinVine-Launcher/issues) page — bug reports, feature requests, and general feedback are all welcome
 - **Submit a pull request** if you have a fix or improvement you'd like to contribute
 - **Test on different services** — not all supported services have been fully tested, so reports on what works and what doesn't are particularly helpful
 
-As this is a Beta release, there will likely be rough edges. Your feedback helps make it better for everyone.
+Your feedback helps make it better for everyone.
 
 ---
 
