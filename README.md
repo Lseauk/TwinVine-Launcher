@@ -36,7 +36,7 @@ TwinVine Launcher handles everything automatically: installing all required tool
 
 ## Known Issues & Quirks
 
-This release. The following known issues exist — contributions and bug reports are welcome.
+The following known issues exist — contributions and bug reports are welcome.
 
 **1. Real-time animation in the download panel**
 This has been improved see Changelog v1.0.3
