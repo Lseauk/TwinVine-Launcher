@@ -1,4 +1,4 @@
-# This has now been archived please check out my new repo with a renuilt app. [Here!](https://github.com/Lseauk/EnvyUI)
+# This has now been archived please check out my new repo with a rebuilt app. [Here!](https://github.com/Lseauk/EnvyUI)
 
 
 
